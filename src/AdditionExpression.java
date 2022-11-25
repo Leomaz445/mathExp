@@ -26,15 +26,14 @@ public class AdditionExpression extends CompoundExpression {
 
     /**
      * Building the string to represent two operators and the plus operand.
-     * in this class the  casting is redundant because the CompoundExpression and the AtomicExpression
-     * are the children of Expression, and we do Up-Casting.
+     * in this class the  casting is redundant because the CompoundExpression and the AtomicExpression.
      *
      * @return expression that is using two operators and the plus operand.
      */
     @Override
     public String toString() {
-        String leftOperatorStringValue;
         String rightOperatorStringValue;
+        String leftOperatorStringValue;
         if (leftOperator instanceof CompoundExpression) {
             leftOperatorStringValue = ((CompoundExpression) leftOperator).toString();
         } else {

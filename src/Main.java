@@ -12,7 +12,7 @@ public class Main {
     private final static int RANDOM_UPPER_BOUND = 10;
     private final static int MAX_ARGUMENT_BOUND = 10;
 
-    //Main method
+    //Main method - we generate the random expressions,and then printing them and after that print only equals.
     public static void main(String[] args) {
         ArrayList<Expression> expressions = new ArrayList();
         generateRandomExpressions(expressions);

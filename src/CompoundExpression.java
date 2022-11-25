@@ -27,6 +27,6 @@ public abstract class CompoundExpression extends Expression {
         }
     }
 
-    // abstract method
+    // abstract method to printString
     public abstract String toString();
 }
